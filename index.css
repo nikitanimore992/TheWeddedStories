@@ -1,11 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-}
-*
-{
     overflow-x: hidden;
-
 }
 nav{
     display: flex;
@@ -17,15 +13,18 @@ nav ul{
 nav .navbar1{
     margin-left: 450px;
 }
+nav .navbar1 li{
+    padding: 10px 100px 0px 0px;
+}
 nav ul li{
-
-    padding: 0px 100px 0px 0px;
     /* text-decoration: none; */
+    /* padding: 0px 100px 0px 0px; */
     font-size: 20px;
     list-style-type: none;
 }
 nav .logo{
     margin-left:200px ;
+    padding: 0px 100px 0px 0px;
 }
 nav ul li img{
     width: 80px;
