@@ -1,11 +1,15 @@
 import './App.css'
-
+import Layout from '../Componets/Layout';
+import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    
+     <Router>
+      <div className="App">
+        <Layout/>
+      </div>
+    </Router>
     </>
   )
 }
