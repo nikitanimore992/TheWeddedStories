@@ -1,57 +1,30 @@
-import React from 'react';
-import {
-  CDBSidebar,
-  CDBSidebarContent,
-  CDBSidebarFooter,
-  CDBSidebarHeader,
-  CDBSidebarMenu,
-  CDBSidebarMenuItem,
-} from 'cdbreact';
-import { NavLink } from 'react-router-dom';
 
-const Layout = () => {
-  return (
-    <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
-      <CDBSidebar textColor="#fff" backgroundColor="#333">
-        <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
-          <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
-            Sidebar
-          </a>
-        </CDBSidebarHeader>
-
-        <CDBSidebarContent className="sidebar-content">
-          <CDBSidebarMenu>
-            <NavLink exact to="/" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
-            </NavLink>
-            <NavLink exact to="/tables" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="table">Tables</CDBSidebarMenuItem>
-            </NavLink>
-            <NavLink exact to="/profile" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="user">Profile page</CDBSidebarMenuItem>
-            </NavLink>
-            <NavLink exact to="/analytics" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="chart-line">Analytics</CDBSidebarMenuItem>
-            </NavLink>
-
-            <NavLink exact to="/hero404" target="_blank" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="exclamation-circle">404 page</CDBSidebarMenuItem>
-            </NavLink>
-          </CDBSidebarMenu>
-        </CDBSidebarContent>
-
-        <CDBSidebarFooter style={{ textAlign: 'center' }}>
-          <div
-            style={{
-              padding: '20px 5px',
-            }}
-          >
-            Sidebar Footer
-          </div>
-        </CDBSidebarFooter>
-      </CDBSidebar>
-    </div>
-  );
-};
-
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { Outlet  } from 'react-router-dom';
+const Layout=()=>{
+    return(
+        <>
+            <Navbar class="text-white bg-dark">
+                    {/* <Navbar.Brand href="/home">Navbar</Navbar.Brand>  */}
+                    <Nav className="me-auto">
+                        <Nav.Link href="/home">Home</Nav.Link> 
+                        <Nav.Link href="/contactus">ContactUs</Nav.Link> 
+                    </Nav>
+            </Navbar>
+            <hr size="2" />
+            <Navbar class="text-white bg-dark" >
+                    {/* <Navbar.Brand href="/home">Navbar</Navbar.Brand>  */}
+                    <Nav className="me-auto">
+                        <Nav.Link href="/home">Home</Nav.Link> 
+                        <Nav.Link href="/contactus">ContactUs</Nav.Link> 
+                    </Nav>
+            </Navbar>
+            <hr size="4" color="red" />
+            <Outlet />
+            <hr size="4" color="red" />
+           
+        </>
+    )
+}
 export default Layout;

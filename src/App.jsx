@@ -1,16 +1,21 @@
-import './App.css'
-import Layout from '../Componets/Layout';
-import { BrowserRouter as Router } from 'react-router-dom';
-function App() {
+import { BrowserRouter , Route , Routes } from "react-router-dom"
+import Home from "../Componets/Home"
+import ContactUs from "../Componets/ContactUS"
+import Layout from "../Componets/Layout"
 
+
+
+
+function App() {
   return (
-    <>
-     <Router>
-      <div className="App">
-        <Layout/>
-      </div>
-    </Router>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout/>}>
+          <Route path="home" element={<Home/>}/>
+          <Route path="contactus" element={<ContactUs/>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
