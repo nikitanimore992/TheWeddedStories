@@ -1,0 +1,27 @@
+
+{
+    "WedData": [
+      {
+        "id": "001",
+        "customername": "Nikita Nimore",
+        "monumber": "8349110169",
+        "city": "Bhopal",
+        "email": "Nikita",
+        "ftype":"preewedding",
+        "fsdate":"01/13/5001",
+        "fedate":"01/13/5001",
+        "flocation":"Bhopal"
+      },
+      {
+        "id": "002",
+        "customername": "Nikita Nimore",
+        "monumber": "8349110169",
+        "city": "Bhopal",
+        "email": "Nikita",
+        "ftype":"preewedding",
+        "fsdate":"01/13/5001",
+        "fedate":"01/13/5001",
+        "flocation":"Bhopal"
+      }
+    ]
+}
