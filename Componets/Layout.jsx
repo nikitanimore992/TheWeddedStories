@@ -71,7 +71,7 @@ const Layout = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src="./images/head4.jpg" alt="" />
+      <img src="./images/head7.jpg" alt="" />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
