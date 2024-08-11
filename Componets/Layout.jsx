@@ -35,7 +35,7 @@ const Layout = () => {
 
             <Carousel fade>
       <Carousel.Item>
-        <img src="./images/head2.jpg" alt="" />
+        <img src="./images/head1.jpg" alt="" />
         <Carousel.Caption>
         <h3>Third slide label</h3>
           <p>
@@ -44,7 +44,7 @@ const Layout = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-       <img src="./images/head6.jpg" alt="" />
+       <img src="./images/head2.jpg" alt="" />
         <Carousel.Caption>
         <h3>Third slide label</h3>
           <p>
@@ -63,15 +63,6 @@ const Layout = () => {
       </Carousel.Item>
       <Carousel.Item>
       <img src="./images/head4.jpg" alt="" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <img src="./images/head7.jpg" alt="" />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
