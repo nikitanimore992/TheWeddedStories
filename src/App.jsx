@@ -1,6 +1,6 @@
 import { BrowserRouter , Route , Routes } from "react-router-dom"
 import Home from "../Componets/Home"
-import ContactUs from "../Componets/ContactUS"
+import ContactUs from "../Home/Componets/ContactUS"
 import Layout from "../Componets/Layout"
 
 
