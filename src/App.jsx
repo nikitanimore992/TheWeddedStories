@@ -13,7 +13,6 @@ function App() {
         <Route path="/" element={<Layout/>}>
           <Route path="home" element={<Home/>}/>
           <Route path="contactus" element={<ContactUs/>}/>
-          <Route path="contactus" element={<ContactUs/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
