@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Outlet } from 'react-router-dom';
-import Carousel from 'react-bootstrap/Carousel';
+import Crosel from './Carousel';
 
 const Layout = () => {
     return (
@@ -32,46 +32,8 @@ const Layout = () => {
             {/* end first navbar */}
 
             <div class="navimg">
-
-            <Carousel fade>
-      <Carousel.Item>
-        <img src="./images/head1.jpg" alt="" />
-        <Carousel.Caption>
-        <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-       <img src="./images/head2.jpg" alt="" />
-        <Carousel.Caption>
-        <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <img src="./images/head5.jpg" alt="" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <img src="./images/head4.jpg" alt="" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-
+              <Crosel/>
+           
             </div>
 
             {/* second navbar */}
