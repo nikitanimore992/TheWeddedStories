@@ -16,7 +16,7 @@ const Crosel=()=>{
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-       <img src="images/head2.jpg" alt="" />
+       <img src="images/head5.jpg" alt="" />
         <Carousel.Caption>
         <h3>Third slide label</h3>
           <p>
@@ -25,7 +25,7 @@ const Crosel=()=>{
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src="images/head5.jpg" alt="" />
+      <img src="images/head4.jpg" alt="" />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
@@ -34,7 +34,7 @@ const Crosel=()=>{
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src="images/head4.jpg" alt="" />
+      <img src="images/head2.jpg" alt="" />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
