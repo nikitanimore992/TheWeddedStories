@@ -2,7 +2,11 @@
 const Home=()=>{
     return(
         <>
-         <h1>this is my home page</h1>
+        <div>
+            <img src="images/bi.jpg" alt="" />
+            <img src="images/bi.jpg" alt="" />
+            <img src="images/bi.jpg" alt="" />
+        </div>
 
         </>
     )
