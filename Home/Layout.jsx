@@ -7,6 +7,7 @@ import Crosel from './Carousel';
 const Layout = () => {
     return (
         <>
+
             <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
                 <Container>
 
@@ -31,9 +32,10 @@ const Layout = () => {
             </Navbar>
             {/* end first navbar */}
 
+           
+           {/* carosal page link  */}
             <div class="navimg">
               <Crosel/>
-           
             </div>
 
             {/* second navbar */}
