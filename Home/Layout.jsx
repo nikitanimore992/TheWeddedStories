@@ -7,7 +7,8 @@ import Crosel from './Carousel';
 const Layout = () => {
     return (
         <>
-
+        
+        <div class="layoutcontainer">
             <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
                 <Container>
 
@@ -65,7 +66,7 @@ const Layout = () => {
             <hr size="4" color="red" />
             <Outlet />
             <hr size="4" color="red" />
-
+            </div>
         </>
     )
 }
