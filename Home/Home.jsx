@@ -12,6 +12,7 @@ const Home = () => {
                 <div>
                     <img class="himg1" src="images/bridge.jpeg" alt="" />
                     <img class="himg" src="images/mi.jpeg" alt="" />
+                    <img class="himg1" src="images111/bridge.jpg" alt="" />
                     
                 </div>
                 <div>
