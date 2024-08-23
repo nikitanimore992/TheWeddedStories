@@ -11,8 +11,7 @@ const Home = () => {
                 </div>
                 <div>
                     <img class="himg1" src="images/bridge.jpeg" alt="" />
-                    <img class="himg" src="images/mi.jpeg" alt="" />
-                    <img class="himg1" src="images111/bridge.jpg" alt="" />
+                    <img class="himg2" src="images/images111.jpg" alt="" />
                     
                 </div>
                 <div>

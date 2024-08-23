@@ -19,18 +19,15 @@ div .himg {
 div .himg1 {
     width: 680px;
     height: 350px;
-    margin: 0px 10px 10px 0px;
+    margin: 10px 10px 10px 10px;
      
 }
-/*
+
 div .himg2 {
-    width: 350px;
-    height: 420px;
-    /* margin-right: 135px;
-    margin-top: 0px;
-    margin-bottom: 10px; */
-    /* margin: 0px 0px 10px 135px;
-  }  */
+    width: 680px;
+    height: 350px;
+    margin: 10px 10px 10px 10px;
+  }  
 
 
 
