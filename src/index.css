@@ -38,6 +38,11 @@ div .himg2 {
     margin: 10px 0px 10px 10px;
   }  
 
-
+.HomeFooter{
+    background-color: rgb(28, 165, 165);
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 05px;
+}
 
 /* ----------------home page --------------- */

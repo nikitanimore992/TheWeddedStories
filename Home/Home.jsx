@@ -18,6 +18,9 @@ const Home = () => {
                 </div>
 
             </center>
+            <div class="HomeFooter">
+        
+            </div>
 
         </>
     )
