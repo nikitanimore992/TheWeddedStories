@@ -63,9 +63,9 @@ const Layout = () => {
 
 
 
-            <hr size="4" color="red" />
+            {/* <hr size="4" color="red" /> */}
             <Outlet />
-            <hr size="4" color="red" />
+            {/* <hr size="4" color="red" /> */}
             </div>
         </>
     )
