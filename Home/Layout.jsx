@@ -46,16 +46,14 @@ const Layout = () => {
                     <a class="nav-link " aria-current="page" href="/Home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">home</a>
+                    <a class="nav-link" href="#">Photos</a>
                 </li>
+                {/* <li class="nav-item">
+                    <a class="nav-link" href="#">Function</a>
+                </li> */}
+                
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link ">Disabled</a>
+                    <a class="nav-link ">About Me</a>
                 </li>
             </ul>
 
