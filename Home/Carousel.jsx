@@ -9,36 +9,36 @@ const Crosel=()=>{
       <Carousel.Item>
         <img src="images/head2.jpg" alt="" />
         <Carousel.Caption>
-        <h3>Third slide label</h3>
+        <h3>Bittu Photographer</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          Find the right person for your function , at the right price. you can contact me... 
           </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
        <img src="images/head5.jpg" alt="" />
         <Carousel.Caption>
-        <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        <h3>Bittu Photographer</h3>
+        <p>
+          Find the right person for your function , at the right price. you can contact me... 
           </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       <img src="images/head4.jpg" alt="" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Bittu Photographer</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          Find the right person for your function , at the right price. you can contact me... 
           </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       <img src="images/head2.jpg" alt="" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Bittu Photographer</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          Find the right person for your function , at the right price. you can contact me... 
           </p>
         </Carousel.Caption>
       </Carousel.Item>

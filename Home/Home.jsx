@@ -21,6 +21,7 @@ const Home = () => {
             <div class="HomeFooter">
         
             </div>
+           
 
         </>
     )
