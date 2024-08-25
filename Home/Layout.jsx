@@ -46,7 +46,7 @@ const Layout = () => {
                     <a class="nav-link " aria-current="page" href="/Home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Photos</a>
+                    <a class="nav-link" href="/photos">Photos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">wedding</a>
