@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Outlet } from 'react-router-dom';
 import Crosel from './Carousel';
+import Footer from './Footer';
 
 const Layout = () => {
     return (
@@ -64,6 +65,7 @@ const Layout = () => {
             {/* <hr size="4" color="red" /> */}
             <Outlet />
             {/* <hr size="4" color="red" /> */}
+            <Footer/>
             </div>
         </>
     )
