@@ -117,6 +117,12 @@ const Footer=()=>{
         </MDBContainer>
       </section>
 
+      {/* second container  */}
+
+
+
+      {/* end contaner */}
+
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
        @2024NikitaNimore
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
