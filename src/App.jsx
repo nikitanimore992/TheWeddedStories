@@ -3,6 +3,8 @@ import Layout from "../Home/Layout";
 import Home from "../Home/Home";
 import ContactUs from "../Home/ContactUS/ContactUS";
 import Photos from "../Home/Photos/Photos";
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 
 function App() {
