@@ -19,7 +19,7 @@ const Layout = () => {
                         <Nav className="me-auto">
                             <Nav.Link href="/Home">Home</Nav.Link>
                             <Nav.Link href="/photographer">Photographer</Nav.Link>
-                            <Nav.Link href="/contact">Contact</Nav.Link>
+                            <Nav.Link href="/contactus">Contact</Nav.Link>
 
                         </Nav>
                         <Nav>
