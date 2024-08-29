@@ -37,6 +37,17 @@ div .himg2 {
     height: 350px;
     margin: 10px 0px 10px 10px;
   }  
+  div .himg3 {
+    width: 715px;
+    height: 350px;
+    margin: 05px 0px 10px 10px;
+  }  
+  div .himg4 {
+    width: 351px;
+    height: 350px;
+    margin: 0px 05px 05px 05px;
+    
+}  
 
 .HomeFooter{
     background-color: rgb(28, 165, 165);
