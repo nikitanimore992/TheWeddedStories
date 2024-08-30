@@ -5,6 +5,7 @@ import ContactUs from "../Home/ContactUS/ContactUS";
 import Photos from "../Home/Photos/Photos";
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Photographer from "../Home/Photographer";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="home" element={<Home/>}/>
           <Route path="photos" element={<Photos/>}/>
           <Route path="contactus" element={<ContactUs/>}/>
+          <Route path="Photographer" element={<Photographer/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
