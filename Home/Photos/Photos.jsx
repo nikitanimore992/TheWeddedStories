@@ -4,7 +4,7 @@
 const Photos=()=>{
     return(
             <>
-            
+           <h1>this is phots page</h1> 
    </>
     )
     

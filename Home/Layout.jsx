@@ -18,7 +18,7 @@ const Layout = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="/Home">Home</Nav.Link>
-                            <Nav.Link href="/photographer">Photographer</Nav.Link>
+                            <Nav.Link href="/Photographer">Photographer</Nav.Link>
                             <Nav.Link href="/contactus">Contact</Nav.Link>
 
                         </Nav>
