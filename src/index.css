@@ -10,6 +10,9 @@
     height: 500px;
 }
 /* ----------------home page --------------- */
+.pere{
+  margin: 0px 300px 0px 300px;
+}
 .homeid{
     border: 2px solid rgb(217, 151, 151);
     background-color:light;
