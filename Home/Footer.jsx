@@ -21,9 +21,9 @@ const Footer=()=>{
             <MDBIcon fab icon="twitter" />
           </a>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="google" />
+            <MDBIcon fab icon="youtube" />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.instagram.com/storice_wedded96/' className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
           <a href='' className='me-4 text-reset'>
