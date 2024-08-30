@@ -4,7 +4,13 @@ const Home = () => {
         <>
             <center class="homeid">
                 <div>
+                    <h1>
+                        
+                    </h1>
+                </div>
+                <div>
                     {/* <img class="himg" src="images/bi.jpg" alt="" /> */}
+                  
                     <img class="himg" src="images/b2.jpg" alt="" />
                     <img class="himg" src="images/b3.jpg" alt="" />
                     <img class="himg" src="images/b4.jpg" alt="" />

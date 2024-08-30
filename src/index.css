@@ -12,6 +12,7 @@
 /* ----------------home page --------------- */
 .homeid{
     border: 2px solid rgb(217, 151, 151);
+    background-color:light;
 }
 .him1{
     width: 250px;
