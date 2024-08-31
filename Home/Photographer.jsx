@@ -4,9 +4,16 @@
 const Photographer=()=>{
     return(
         <>
-        <div>
-        
-        </div>
+        <center>
+            <div>
+
+            </div>
+            <div>
+
+                
+            </div>
+        </center>
+      
         </>
     )
 }
