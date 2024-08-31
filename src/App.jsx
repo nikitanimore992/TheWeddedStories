@@ -5,7 +5,7 @@ import ContactUs from "../Home/ContactUS/ContactUS";
 import Photos from "../Home/Photos/Photos";
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import Photographer from "../Home/Portfolio/Photographer";
+import Photographer from "../Home/Photographer";
 
 
 function App() {
