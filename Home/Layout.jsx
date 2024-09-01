@@ -39,6 +39,7 @@ const Layout = () => {
             <div class="navimg">
               <Crosel/>
             </div>
+            <br />
 
             {/* second navbar */}
 
@@ -60,9 +61,9 @@ const Layout = () => {
 
             {/* layout */}
 
+            {/* <br /> */}
 
-
-            {/* <hr size="4" color="red" /> */}
+            <hr size="4" color="red" />
             <Outlet />
             {/* <hr size="4" color="red" /> */}
             <Footer/>
