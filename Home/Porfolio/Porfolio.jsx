@@ -4,7 +4,9 @@
 const Portfolio=()=>{
    return(
     <>
-    
+    <div>
+      <img src="Portfolio/" alt="" />
+    </div>
     </>
    )
 }
