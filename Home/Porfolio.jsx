@@ -5,7 +5,7 @@ const Portfolio=()=>{
    return(
     <>
     <div>
-      <img src="Portfolio/" alt="" />
+      <img src="iphotos/img11.jpg" alt="" />
     </div>
     </>
    )
