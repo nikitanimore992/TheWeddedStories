@@ -4,8 +4,8 @@
 const Portfolio=()=>{
    return(
     <>
-    <div>
-      <img src="iphotos/img11.jpg" alt="" />
+    <div class="portf">
+      <img src="images/img11.jpg"  class="pimg" alt="" />
     </div>
     </>
    )
