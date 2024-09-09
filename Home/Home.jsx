@@ -22,7 +22,7 @@ const Home = () => {
             </center>
             <center class="homeid">
                 <div>
-                    {/* <img class="himg" src="images/bi.jpg" alt="" /> */}
+               
 
                     <img class="himg" src="images/b2.jpg" alt="" />
                     <img class="himg" src="images/b3.jpg" alt="" />
