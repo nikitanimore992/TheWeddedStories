@@ -1,3 +1,27 @@
 
+{
+    "clientdata":[
+            {
+                "id":"01",
+            "name":"Ankit",
+            "city":"Bihar",
+            "type":"Prewedding",
+            "date":"10/10/2027"
+            },
+            {
+                "id":"02",
+            "name":"Nikita",
+            "city":"Bhopal",
+            "type":"Prewedding",
+            "date":"10/10/2027"
+            }, {
+                "id":"03",
+            "name":"yogita",
+            "city":"harda",
+            "type":"Postwedding",
+            "date":"10/10/2029"
+            }
+    ]
+}  
 
 
