@@ -48,7 +48,14 @@
                             "city":"Noida delhi",
                             "type":"prewedding",
                             "date":"25/02/2026"
-                            }
+                            },
+                            {
+                                "id":"07",
+                                "name":"Anuj",
+                                "city":"indore",
+                                "type":"solow",
+                                "date":"25/01/2026"
+                                }
     ]
 }  
 
